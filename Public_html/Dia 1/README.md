@@ -8,7 +8,8 @@ He aprendido:
 - Contenedores
 - Clases
 - Clase DIV
+- Columnas
 
 # Tiempo dedicado hoy:
 
-1 Hora y 20 minutos
+1 Hora y 50 minutos
