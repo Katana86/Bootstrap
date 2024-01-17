@@ -26,6 +26,8 @@ He aprendido:
 - Componentes
 - Iconos
 - Flexbox
+- Manejo de css
+- Inclusión de fuentes personalizadas
 
 # Tiempo dedicado hoy:
 
