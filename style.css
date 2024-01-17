@@ -10,6 +10,9 @@
  justify-content: space-between;
 }
 
+.navbar-toggler-icon {
+ align-items: center;
+}
 /* Barra de navegación adaptable a pantallas pequeñas y ocultación del logo */
 
 @media screen and (max-width: 767px){
