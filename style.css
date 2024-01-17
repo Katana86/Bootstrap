@@ -10,6 +10,8 @@
  justify-content: space-between;
 }
 
+/* Barra de navegación adaptable a pantallas pequeñas y ocultación del logo */
+
 @media screen and (max-width: 767px){
   .navbar-brand{
     display: none;
