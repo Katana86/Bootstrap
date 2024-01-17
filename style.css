@@ -10,8 +10,9 @@
  justify-content: space-between;
 }
 
-.navbar-toggler {
+.navbar-toggler-icon {
  align-items: center;
+ justify-content: space-between;
 }
 /* Barra de navegación adaptable a pantallas pequeñas y ocultación del logo */
 
