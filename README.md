@@ -18,7 +18,7 @@ He aprendido:
 
 # Tiempo dedicado hoy:
 
-1 Hora y 50 minutos
+2 Hora y 30 minutos
 
 # Fuentes
   - Tutorial seguido:
