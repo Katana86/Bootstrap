@@ -5,7 +5,7 @@ Codigo fuente de la pagina web creada con bootstrap 5: https://katana86.github.i
 
 # Día 1
 
-Hoy he empezado a ver el tutorial del canal @freeCodeCamp Español. Para un proyecto del ciclo DAW propuesto por el profesor.
+Hoy he empezado a ver el tutorial del canal @freeCodeCampespañol y de @codingwithestefani. Para un proyecto del ciclo DAW propuesto por el profesor de linguaje de marcas.
 
 He aprendido:
 - Contenedores
