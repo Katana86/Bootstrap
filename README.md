@@ -12,13 +12,24 @@ He aprendido:
 - Clases
 - Clase DIV
 - Columnas
+
+# Tiempo dedicado hoy:
+
+1 Hora y 30 minutos
+
+# Dia 2
+
+Hoy he aprovechado la noche para poder seguir aprendiendo y la mañana. 
+He empezado el proyecto de la web del video.
+
+He aprendido:
 - Componentes
 - Iconos
 - Flexbox
 
 # Tiempo dedicado hoy:
 
-2 Hora y 30 minutos
+2 horas
 
 # Fuentes
   - Tutorial seguido:
