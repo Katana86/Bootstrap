@@ -25,5 +25,4 @@ He aprendido:
   https://www.youtube.com/watch?v=QCw0L6FupQ0
 
 - Documentación oficial de bootstrap:
-
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
