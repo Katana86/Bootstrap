@@ -51,16 +51,10 @@ h1{
   margin: 20px;
 }
 
-/* Fuente personalizado de Soy programador */
-
-@font-face {
-  font-family: 'SegaArcadeFont';
-  src: url("Fuentes/sega_arcade/SegaArcadeFont-Regular.ttf");
-}
 
 .hero-principal h2 {
   font-size: 1,5rem;
-  font-family: 'SegaArcadeFont';
+  font-family: 'Cashrole.ttf';
   color: #615151;
 }
 
