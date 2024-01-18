@@ -57,7 +57,7 @@ He hecho los apartados:
 # Final ;)
 
 Hoy a las (13:46) del dia 18/01/2024:
-He acabado de ver el video. Me ha gustado el CSS de bootstrap me ha parecido mas sencillo de manejar y intuitivo para emparajar con el archivo HTML. Es una herramienta que si sabes usar tiene mucho poder.
+He acabado de ver el video. Me ha gustado el CSS de bootstrap me ha parecido mas sencillo de manejar y intuitivo para emparajar con el archivo HTML. Es una herramienta que si sabes usar tiene mucho poder a nivel multiplataforma. Ire mejorando el codigo poco a poco.
 
 # Fuentes
   - Tutorial seguido:
