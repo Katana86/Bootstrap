@@ -19,17 +19,147 @@ section {
   justify-content: center;
 }
 
+h1{
+  font-size: 2.5rem;
+  font-family: 'Cashrole';
+  font-style: normal;
+}
+
+.seccion-oscura{
+  color:white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara{
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Cashrole';
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+}
+
+.seccion-texto{
+  font-size: 1.2rem;
+  color: #584e4e ;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+.badge-estudiante{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 90px;
+}
+
+.badge-contenedores{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 50px;
+}
+
+.badge{
+  margin: 5px;
+}
+
+/* Proyectos */
+
+.proyecto{
+  position: relative;
+}
+
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay{
+  transition: all 0.2 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto:hover img{
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i{
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Articulos */
+
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+}
+
 /* Fuente personalizada del texto Iván Piñeiro */
 
 @font-face {
   font-family: 'Cashrole';
   src: url("Fuentes/cashrole/Cashrole.ttf");
-}
-
-h1{
-  font-size: 2.5rem;
-  font-family: 'Cashrole';
-  font-style: normal;
 }
 
 /* Seccion Hero */
@@ -51,11 +181,19 @@ h1{
   margin: 20px;
 }
 
+/* Fuente personalizado de Soy programador */
 
 .hero-principal h2 {
   font-size: 1,5rem;
   font-family: 'Cashrole';
   color: #615151;
+}
+
+/* Sobre mi */
+
+.sobre-mi{
+  height: 500px;
+  padding: 10px;
 }
 
 /* Fuente personalizado de Tecnologias */
@@ -78,10 +216,77 @@ h1{
   font-size: 14px;
   text-align: center;
 }
+
+.sobre-mi .contenedor{
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia{
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.animation:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.Titulo_DW{
+  text-align: center;
+}
+
+.Imagen_DW{
+  width: 480px;
+  height: 200px;
+}
+
+.Titulo_A{
+  text-align: center;
+}
+
+.Imagen_A{
+  width: 480px;
+  height: 200px;
+}
+
+.Imagen_ES{
+  width: 480px;
+  height: 200px;
+}
+
+.Titulo_ES{
+  text-align: center;
+}
+
+
 /* Barra de navegación adaptable a pantallas pequeñas y ocultación del logo */
 
 @media screen and (max-width: 767px){
   .navbar-brand{
     display: none;
   }
+
+@media screen and (max-width: 700px) {
+  .sobre-mi {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay p{
+    font-size: 18px;
+  }
+
+  .overlay i{
+    font-size: 40px;
+  }
+}
 }
