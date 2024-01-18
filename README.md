@@ -33,9 +33,38 @@ He aprendido:
 
 2 horas
 
+# Dia 3
+
+Hoy he hecho los apartados:
+
+- Sobre mí
+- Experiencia
+- Proyectos
+- Articulos
+- Testimonios
+- Carrusel
+- Contacto
+- Footer
+
+Hoy a las (13:46) del dia 18/01/2024:
+He acabado de ver el video. Me ha gustado el CSS de bootstrap me ha parecido mas sencillo de manejar y intuitivo para emparajar con el archivo HTML. Es una herramienta que si sabes usar tiene mucho poder.
+
 # Fuentes
   - Tutorial seguido:
   https://www.youtube.com/watch?v=QCw0L6FupQ0
 
 - Documentación oficial de bootstrap:
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+- Stackoverflow & Stackoverflow Español:
+  https://stackoverflow.com/
+  Español:
+  https://es.stackoverflow.com/
+
+# Herramientas
+
+- Bing Copailot:
+  https://copilot.microsoft.com/
+
+- Visual Studio Code:
+  https://code.visualstudio.com/
