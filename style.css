@@ -451,7 +451,7 @@ footer.logo {
 
   .testimonio-texto {
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
   .overlay i{
@@ -469,7 +469,7 @@ footer.logo {
   .testimonio-imagen {
     height: 120px;
     width: 400px;
-    border-radius: 10px
+    border-radius: 50%;
     }
     
     .Imagen_DW{
