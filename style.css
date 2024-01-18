@@ -434,30 +434,65 @@ footer.logo {
     display: none;
   }
 
+  /* Eliminar contenido */
+
 @media screen and (max-width: 700px) {
   .sobre-mi {
     display: none;
   }
 }
 
+/* Adaptar textos */
+
 @media screen and (max-width: 400px) {
   .overlay p{
     font-size: 18px;
   }
 
-@media screen and (max-width: 800px) {
-  .testimonio-imagen {
-    height: 120px;
-    width: 120px;
-  }
-
   .testimonio-texto {
     font-size: 18px;
   }
-}
 
   .overlay i{
     font-size: 40px;
   }
+
+  .card-text{
+    font-size: 12px;
+  }
 }
+
+/* Adaptar imagenes */
+
+@media screen and (max-width: 600px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 400px;
+    }
+    
+    .Imagen_DW{
+      height: 480x;
+      width: 600px;
+    }
+
+    .Imagen_A{
+      height: 480px;
+      width: 600px;
+    }
+
+    .Imagen_ES{
+      height: 480px;
+      width: 600px;
+    }
+
+  /* Botones */
+
+    .badge-contenedores{
+      margin-left: 120px;
+    }
+
+    .badge-estudiante{
+      margin-left: 120px;
+    }
+  }
 }
