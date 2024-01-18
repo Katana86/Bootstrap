@@ -18,8 +18,9 @@
 <!--CSS-->
 <link href="style.css"rel="stylesheet">   
 <!--Fuentes-->
-<link rel="Cashrole" href="/Fuentes/cashrole/Cashrole.ttf">
-<link rel="SegaArcadeFont" href="/Fuentes/sega_arcade/SegaArcadeFont-Regular.ttf"> 
+<link rel="Cashrole" href="Fuentes/cashrole/Cashrole.ttf">
+<link rel="cothrex" href="Fuentes/conthrax/conthrax-sb.otf">
+<link rel="Cashrole" href="Fuentes/house_of_montague/HouseOfMontagueDEMO.otf">
 </head>
  <body>
 <!--Barra de navegación-->
@@ -36,15 +37,15 @@
 </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+          <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
+          <a class="nav-link" href="#proyectos">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonios</a>
+          <a class="nav-link" href="#testimonios">Testimonios</a>
         </li>
-<a class="nav-link" href="#">Contacto</a>
+<a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -126,7 +127,7 @@
 </section>
 
 <!--Sección sobre mí-->
-<section class="sobre-mi seccion-oscura">
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
   <div class="contenedor">
     <h2 class="seccion-titulo texto-blanco">Conoce a Ivan Pineiro</h2>
     <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, nisl eget euismod sodales, justo sapien posuere tortor, a dictum elit felis non felis. Vivamus pulvinar condimentum dapibus. Fusce nec sagittis nisi. Nulla finibus dolor nec urna condimentum suscipit. Nullam et quam ex. Nam tristique, tellus sollicitudin luctus pharetra, libero enim maximus ex, eget finibus neque quam quis dolor. Morbi nibh erat, sagittis ut elit tempor, cursus efficitur sem. Aliquam vitae rhoncus nulla, at commodo odio. Etiam quis orci quis lectus finibus pulvinar eget ac mauris. Sed quis sapien pulvinar, laoreet erat nec, blandit diam. Etiam nec nulla a ligula varius finibus sit amet nec ex. Sed ut tempor est, id hendrerit risus.</p>
@@ -141,7 +142,12 @@
       <img src="imagenes/desarrollo_pagina_web.jpg" class="card-img-top Imagen_DW" alt="Imagen Desarrollo Web">
       <div class="card-body animation">
         <h5 class="card-title Titulo_DW">Desarrollo web</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a rutrum ante, in finibus ligula. Cras nisl massa, pulvinar nec sagittis sed, tempor id nibh. Nam ullamcorper volutpat elit in tempus. Aenean et dolor gravida odio auctor fermentum a ac justo. Donec eros mi, ullamcorper.</p>
+        <p class="card-text texto_DW justify-content-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quisque a rutrum ante, in finibus ligula. Cras nisl massa, <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pulvinar nec sagittis sed, tempor id nibh.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nam ullamcorper volutpat elit in tempus.<br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aenean et dolor gravida odio auctor fermentum a ac justo.<br> 
+          Donec eros mi, ullamcorper.</p>
         <div class="badge-contenedores">
           <spam class="badge text-bg-info">HTML</spam>
           <spam class="badge text-bg-info">CSS</spam>
@@ -155,7 +161,7 @@
       <img src="imagenes/articles.jpg" class="card-img-top Imagen_A" alt="Articulos Imagen">
       <div class="card-body animation">
         <h5 class="card-title Titulo_A">Articulos</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit, himenaeos magnis class platea a hendrerit, turpis magna ut rhoncus et vivamus. Porta lacinia accumsan integer interdum lobortis nam, ac pharetra velit commodo netus.</p>
+        <p class="card-text texto_A">Lorem ipsum dolor sit amet consectetur adipiscing elit, himenaeos magnis class platea a hendrerit, turpis magna ut rhoncus et vivamus. Porta lacinia accumsan integer interdum lobortis nam, ac pharetra velit commodo netus.</p>
         <div class="badge-contenedores">
           <spam class="badge text-bg-info">Actualidad</spam>
           <spam class="badge text-bg-info">Noticias</spam>
@@ -164,13 +170,14 @@
         <a href="#" class="btn btn-primary btn-light">Leer Más...</a>
       </div>
     </div>
-    <div class="card animation">
+    <div class="card">
       <img src="imagenes/Estudiante.jpg" class="card-img-top Imagen_ES" alt="Imagen Estudiante">
-      <div class="card-body">
+      <div class="card-body animation">
         <h5 class="card-title Titulo_ES">Estudiante</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipiscing elit varius ridiculus etiam in, sagittis lobortis risus aliquet. Pulvinar dapibus iaculis consequat magnis, ad eget.</p>
+        <p class="card-text texto_ES">Lorem ipsum dolor sit amet consectetur, adipiscing elit varius ridiculus etiam in, sagittis lobortis risus aliquet. Pulvinar dapibus iaculis consequat magnis, ad eget.</p>
         <div class="badge-estudiante">
-          <spam class="badge-sis text-bg-info">Sistemas Microinformaticos y Redes Locales</spam>
+          <spam class="badge text-bg-info">Sistemas</spam>
+          <spam class="badge text-bg-info">Microinformaticos y Redes Locales</spam>
           <spam class="badge text-bg-info">Desarrollo Aplicaciones Web</spam>
         </div>
         <a href="#" class="btn btn-primary btn-light">Leer Más...</a>
@@ -180,7 +187,7 @@
 </section>
 
 <!--Proyectos-->
-<section class="proyectos-recientes seccion-clara d-flex flex-column">
+<section id="proyectos"class="proyectos-recientes seccion-clara d-flex flex-column">
   <h2 class="seccion-titulo teto-negro">Mis proyectos recientes</h2>
   <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente.</h3>
   <!--Galeria de proyectos-->
@@ -340,6 +347,96 @@
       </button>
       </a>
 </section>
+
+<!-- Testimonios -->
+<section id="testimonios" class="testimonios seccion-clara">
+  <h2 class="seccion-titulo">Testimonios</h2>
+  <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+  
+  <!-- Carrusel -->
+  <div id="testimonios-carrusel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+          <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Gino</p>
+            <p class="cargo">Gerente de proyectos en Desarrollo Web</p>
+                </div>
+              </div>
+            </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPaginaWeb</p>
+              </div>
+            </div>
+          </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+          <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Leonardo</p>
+            <p class="cargo">Director de AprendeAProgramar</p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 description">
+          Contáctame para iniciar tu proyecto de desarrollado web y haré que tu visión se vuelva realidad.
+        </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:galilea2843@gmial.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-at-fill"></i>
+              </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pie de pagina (footer) -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del Portafolio">
+  <p class="footer-texto text-center">Aprendo y creo todos los dias.<br></p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://twitter.com/freeCodeCampES" target="_blank" rel="noopener noopener">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://github.com/Katana86" target="_blank" rel="noopener noopener">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://es.linkedin.com/in/iv%C3%A1n-pi%C3%B1eiro-pastoriza-899a05215" target="_blank" rel="noopener noopener">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/ivanpineiroo_/" target="_blank" rel="noopener noopener">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailito:galilea2843@gmail.com">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por Iván Piñeiro (2024) &#169;</div>
+  <div class="derechos-de-autor">Agradecimientos a Free Code Camp Español & Coding with Estefania</div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
  </body>
