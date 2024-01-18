@@ -484,14 +484,11 @@ footer.logo {
       height: 480px;
       width: 600px;
     }
- 
-/* Adaptar Interfaz a movil /*
 
-     .fondo{
+    .fondo{
       background-color: #f5f6f7;
       width: 600px;
     }
-
   /* Botones */
 
     .badge-contenedores{
