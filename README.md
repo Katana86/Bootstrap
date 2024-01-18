@@ -54,6 +54,8 @@ He hecho los apartados:
 
 1 Horas y 40 minutos
 
+# Final ;)
+
 Hoy a las (13:46) del dia 18/01/2024:
 He acabado de ver el video. Me ha gustado el CSS de bootstrap me ha parecido mas sencillo de manejar y intuitivo para emparajar con el archivo HTML. Es una herramienta que si sabes usar tiene mucho poder.
 
