@@ -465,11 +465,10 @@ footer.logo {
 /* Adaptar imagenes */
 
 @media screen and (max-width: 600px) {
-  .testimonio-imagen {
+  /*.testimonio-imagen {
     height: 120px;
     width: 400px;
-    border-radius: 50%;
-    }
+    }*/
     
     .Imagen_DW{
       height: 480x;
