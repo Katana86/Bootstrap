@@ -468,6 +468,7 @@ footer.logo {
   .testimonio-imagen {
     height: 120px;
     width: 400px;
+    border-radius: 10px
     }
     
     .Imagen_DW{
